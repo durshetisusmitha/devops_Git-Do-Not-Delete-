@@ -3,7 +3,7 @@ It helps to give long description of the project.
 git is software installed local on system
 github is web-based portal
 git version 2.31.1.windows.1
-git update (to update currnt version of git on local system)
+git update (to update current version of git on local system)
 Before pushing your code some other admin who is working on that pushed the code so your push gets rejected it shows there are updates and it doesn't allows us so we need to git pull before pushing
 Diff b/w pull and clone=git pull is used to get updates complete repo is brought by git clone but pull brings the changes like adding files or changes made to files etc..
 Best practise first use git pull before pushing
@@ -12,6 +12,5 @@ git clone=remote repo to local repo
 git push=local repo to remote repo
 for authentication between git and github we give personal access token which is available in settings-->developer settings-->personal access token
 To do anything in git like commit we need to set global configuration by using git config --global user.name "name" and git config --global user.mail "email@gmail.com"
-
-git log
-git status
+git log = displays a record of the commits in a Git repository 
+git status = The git status command displays the state of the working directory and the staging area
