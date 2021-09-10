@@ -20,3 +20,4 @@ git cherry-Pick is used to picking single commit from one branch to others.
 When there are updates in both branches, merging of that both branches will open vi editor gets pop-up.We have a merge commit in git log.
 When there are updates in same file in different branches, merging of that both branches will open vi editor as a merge conflict.
 How do you handle the merge conflicts? ans: need to fix the conflicts and then commit the result.
+when we want to merge the same files in different branches we have to give merge command from destination branch.  
