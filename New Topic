@@ -11,4 +11,7 @@ Git lifecycle ? ans: explain all the three stages
 git clone=remote repo to local repo
 git push=local repo to remote repo
 for authentication between git and github we give personal access token which is available in settings-->developer settings-->personal access token
-To do anything in git like commit we need to set global configuration by using git config global --user.name "name" and git config global --user.mail "email@gmail.com"
+To do anything in git like commit we need to set global configuration by using git config --global user.name "name" and git config --global user.mail "email@gmail.com"
+
+git log
+git status
