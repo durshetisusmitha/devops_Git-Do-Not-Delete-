@@ -16,3 +16,4 @@ Branch=It is unique set of code changes & with unique name
 git log = displays a record of the commits in a Git repository 
 git status = The git status command displays the state of the working directory and the staging area
 All uncommited files are visible in all branches & after commit they belong to branch where we have commited.
+git cherry-Pick is used to picking single commit from one branch to others.
