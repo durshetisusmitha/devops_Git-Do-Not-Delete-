@@ -18,3 +18,4 @@ git status = The git status command displays the state of the working directory 
 All uncommited files are visible in all branches & after commit they belong to branch where we have commited.
 git cherry-Pick is used to picking single commit from one branch to others.
 When there are updates in both branches, merging of that both branches will open vi editor gets pop-up.We have a merge commit in git log.
+How do you handle the merge conflicts? ans: need to fix the conflicts and then commit the result.
