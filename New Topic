@@ -4,3 +4,10 @@ git is software installed local on system
 github is web-based portal
 git version 2.31.1.windows.1
 git update (to update currnt version of git on local system)
+Before pushing your code some other admin who is working on that pushed the code so your push gets rejected it shows there are updates and it doesn't allows us so we need to git pull before pushing
+Diff b/w pull and clone=git pull is used to get updates complete repo is brought by git clone but pull brings the changes like adding files or changes made to files etc..
+Best practise first use git pull before pushing
+Git lifecycle ? ans: explain all the three stages
+git clone=remote repo to local repo
+git push=local repo to remote repo
+for authentication between git and github we give personal access token which is available in developer settings
