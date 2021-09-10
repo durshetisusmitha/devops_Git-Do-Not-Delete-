@@ -12,5 +12,6 @@ git clone=remote repo to local repo
 git push=local repo to remote repo
 for authentication between git and github we give personal access token which is available in settings-->developer settings-->personal access token
 To do anything in git like commit we need to set global configuration by using git config --global user.name "name" and git config --global user.mail "email@gmail.com"
+Branch=It is unique set of code changes & with unique name
 git log = displays a record of the commits in a Git repository 
 git status = The git status command displays the state of the working directory and the staging area
