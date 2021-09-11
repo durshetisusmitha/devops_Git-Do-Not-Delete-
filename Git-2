@@ -18,4 +18,5 @@ uncommited file is visible in all branches how to make invisble by using git sta
 how to combine multiple commits ----> git merge --squash <destination branch>
 git switch quick way of switching branch
 to copy code from others github to our github------>fork
+In realtime projects we do not push any updated code to main branch.(We have branch protection rule for main branch).
 
