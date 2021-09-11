@@ -21,3 +21,36 @@ When there are updates in both branches, merging of that both branches will open
 When there are updates in same file in different branches, merging of that both branches will open vi editor as a merge conflict.
 How do you handle the merge conflicts? ans: need to fix the conflicts and then commit the result.
 when we want to merge the same files in different branches we have to give merge command from destination branch.  
+git checkout or restore (concept)
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ touch f1
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ ls
+f1
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ cat f1
+prasad
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ vi f1
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ cat f1
+prasad
+vimalaUser@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ git status
+On branch pig
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   f1
+no changes added to commit (use "git add" and/or "git commit -a")
+#In the above step we have not commited so the changes are in untracked stage"
+#Now u want to remove changes u have done on file then use above one of two commands(git --restore or checkout)"
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ git restore -- f1
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ ls
+f1
+User@DESKTOP-BJ50CGC MINGW64 /e/sep-04/GIT/reset (pig)
+$ cat f1
+prasad
+#Next case if we had committed file then we need to send file to working directory & then restore changes#
