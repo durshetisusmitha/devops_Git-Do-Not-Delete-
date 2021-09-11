@@ -15,7 +15,7 @@ delete branch = git branch -D <branch name>
 change the commit message of latest commit git commit --amend -m "message"
 how to get back the content deleted by using revert and reset ----> git reflog <commit id of reseted file>
 uncommited file is visible in all branches how to make invisble by using git stash. 
-how to combine multiple commits ----> git squash
+how to combine multiple commits ----> git merge --squash <destination branch>
 git switch quick way of switching branch
-to copy code from others github to our github
+to copy code from others github to our github------>fork
 
