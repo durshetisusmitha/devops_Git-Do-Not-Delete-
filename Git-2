@@ -5,6 +5,7 @@ revert -- remove files but not commit history
 To undo uncommited changes use git checkout or restore (to undo changes in the working area or staging area)
 to remove from staging to working git reset -<filename>
 to remove from working directory git clean -i
-
+reset = commit id's above the selected commit will be removed
+revert = selected commit will be removed
 
 
