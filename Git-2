@@ -1,1 +1,10 @@
 *********************************Git video 6 is very much important*************************
+To undo commited changes use reset and revert
+reset -- remove files and commit history. (three types of reset soft=commit history get removed files sent from staging area mixed=commit history get removed files sent from working area hard=commit history get removed as well as removed from local repo)
+revert -- remove files but not commit history
+To undo uncommited changes use git checkout or restore (to undo changes in the working area or staging area)
+to remove from staging to working git reset -<filename>
+to remove from working directory git clean -i
+
+
+
