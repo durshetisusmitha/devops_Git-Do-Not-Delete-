@@ -25,3 +25,4 @@ Fetch only brings the content but it does not merge.
 git pull = fetch + merge
 rebase is equal to merge but Firstly Rebase takes destination commits later it gives its own commits.
 Head always points out to the latest commit.
+diff shows difference between the commits.
