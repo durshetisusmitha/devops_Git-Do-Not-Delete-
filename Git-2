@@ -26,3 +26,4 @@ git pull = fetch + merge
 rebase is equal to merge but Firstly Rebase takes destination commits later it gives its own commits.
 Head always points out to the latest commit.
 diff shows difference between the commits.
+tags are similar to branches but we can't change like we do in branches
