@@ -7,9 +7,9 @@ revert = selected commit will be removed
 To undo uncommited changes use git checkout or restore (to undo changes in the working area or staging area)
 to remove from staging to working git reset -<filename>
 to remove from working directory git clean -i
-have files in staging directory how to move them to working directory ---> git reset -- <filename>
+if we have files in staging directory how to move them to working directory ---> git reset -- <filename>
 I have the changes in uncommited file(working directory) want to remove changes not the file----> git chekout/restore --<file name>
-I create a file in master branch and want to create new branch but don't want the file in source branch to get in destination branch what to do? git stash
+I create a file in master branch and want to create new branch but don't want the source file in destination branch what to do? git stash
 i have commited the file but commited incorrectly how to change the commit message ------> using amend
 delete branch = git branch -D <branch name>
 change the commit message of latest commit git commit --amend -m "message"
