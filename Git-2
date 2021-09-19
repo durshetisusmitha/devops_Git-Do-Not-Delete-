@@ -1,12 +1,12 @@
 *********************************Git video 6 is very much important*************************
 To undo commited changes use reset and revert
-reset -- remove files and commit history. (three types of reset soft=commit history get removed files sent from staging area mixed=commit history get removed files sent from working area hard=commit history get removed as well as removed from local repo)
+reset -- remove files and commit history. (three types of reset soft=commit history get removed, files sent from staging area mixed=commit history get removed files sent from working area hard=commit history get removed as well as removed from local repo)
 revert -- remove files but not commit history
+reset = commit id's above the selected commit will be removed
+revert = selected commit will be removed
 To undo uncommited changes use git checkout or restore (to undo changes in the working area or staging area)
 to remove from staging to working git reset -<filename>
 to remove from working directory git clean -i
-reset = commit id's above the selected commit will be removed
-revert = selected commit will be removed
 have files in staging directory how to move them to working directory ---> git reset -- <filename>
 I have the changes in uncommited file(working directory) want to remove changes not the file----> git chekout/restore --<file name>
 I create a file in master branch and want to create new branch but don't want the file in source branch to get in destination branch what to do? git stash
