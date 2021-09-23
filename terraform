@@ -4,3 +4,4 @@ Main commands:
   plan          Show changes required by the current configuration
   apply         Create or update infrastructure
   destroy       Destroy previously-created infrastructure
+The terraform init command is used to initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
