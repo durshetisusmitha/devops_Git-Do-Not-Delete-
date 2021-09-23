@@ -3,7 +3,7 @@ It helps to give long description of the project.
 git is software installed locally on system.
 github is web-based portal
 git version 2.31.1.windows.1
-git update (to update current version of git on local system)
+git update/git update-git-for-windows (to update current version of git on local system)
 Before pushing your code some other admin who is working on that pushed the code so your push gets rejected it shows there are updates and it doesn't allows us so we need to git pull before pushing
 Diff b/w pull and clone=git pull is used to get updates complete repo is brought by git clone but pull brings the changes like adding files or changes made to files etc..
 Best practise first use git pull before pushing
