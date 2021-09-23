@@ -5,3 +5,4 @@ Main commands:
   apply         Create or update infrastructure
   destroy       Destroy previously-created infrastructure
 The terraform init command is used to initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+Whenever a configuration's backend changes, you must run terraform init again to validate and configure the backend before you can perform any plans, applies, or state operations. When changing backends, Terraform will give you the option to migrate your state to the new backend.
