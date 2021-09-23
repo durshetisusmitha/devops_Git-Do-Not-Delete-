@@ -1,3 +1,36 @@
+
 In simple terms, authentication is the process of verifying who a user is,while authorization is the process of verifying what they have access to.
 Terraform stores information about your infrastructure in a state file.This state file keeps track of resources created by your configuration and maps them to real-world resource.
 .terraform.lock.hcl file use is to record the providerselections we have provided. Include this file in your version control repository so that Terraform can guarantee to make the same selections by default when you run "terraform init" in the future.
+Main commands:
+  init          Prepare your working directory for other commands
+  validate      Check whether the configuration is valid
+  plan          Show changes required by the current configuration
+  apply         Create or update infrastructure
+  destroy       Destroy previously-created infrastructure
+The terraform init command is used to initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+Whenever a configuration's backend changes, you must run terraform init again to validate and configure the backend before you can perform any plans, applies, or state operations. When changing backends, Terraform will give you the option to migrate your state to the new backend.
+Terraform must store state about your managed infrastructure and configuration. This state is used by Terraform to map real world resources to your configuration, keep track of metadata, and to improve performance for large infrastructures. This state is stored by default in a local file named "terraform.
+Initializing the backend...
+
+Initializing provider plugins...
+- Finding hashicorp/azurerm versions matching "2.75.0"...
+- Installing hashicorp/azurerm v2.75.0...
+- Installed hashicorp/azurerm v2.75.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider  
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when   
+you run "terraform init" in the future.
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+A network security group (NSG) in Azure is the way to activate a rule or access control list (ACL), which will allow or deny network traffic to your virtual machine instances in a virtual network. NSGs can be associated with subnets or individual virtual machine instances within that subnet.
+

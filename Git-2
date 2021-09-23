@@ -1,15 +1,15 @@
 *********************************Git video 6 is very much important*************************
 To undo commited changes use reset and revert
-reset -- remove files and commit history. (three types of reset soft=commit history get removed files sent from staging area mixed=commit history get removed files sent from working area hard=commit history get removed as well as removed from local repo)
+reset -- remove files and commit history. (three types of reset soft=commit history get removed, files sent from staging area mixed=commit history get removed files sent from working area hard=commit history get removed as well as removed from local repo)
 revert -- remove files but not commit history
+reset = commit id's above the selected commit will be removed
+revert = selected commit will be removed
 To undo uncommited changes use git checkout or restore (to undo changes in the working area or staging area)
 to remove from staging to working git reset -<filename>
 to remove from working directory git clean -i
-reset = commit id's above the selected commit will be removed
-revert = selected commit will be removed
-have files in staging directory how to move them to working directory ---> git reset -- <filename>
+if we have files in staging directory how to move them to working directory ---> git reset -- <filename>
 I have the changes in uncommited file(working directory) want to remove changes not the file----> git chekout/restore --<file name>
-I create a file in master branch and want to create new branch but don't want the file in source branch to get in destination branch what to do? git stash
+I create a file in master branch and want to create new branch but don't want the source file in destination branch what to do? git stash
 i have commited the file but commited incorrectly how to change the commit message ------> using amend
 delete branch = git branch -D <branch name>
 change the commit message of latest commit git commit --amend -m "message"
@@ -22,6 +22,8 @@ In realtime projects we do not push any updated code to main branch.(We have bra
 to push non main branch we need to create or compare and pull request then approver should approve it.
 create pull request when we want to merge our code to main repo after creating invite collaborator aprrover should approve it.
 Fetch only brings the content but it does not merge.
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo.
+You can use git fetch to see if there are any updates to the remote branch without necessary merging them with your local branch.
 git pull = fetch + merge
 rebase is equal to merge but Firstly Rebase takes destination commits later it gives its own commits.
 Head always points out to the latest commit.

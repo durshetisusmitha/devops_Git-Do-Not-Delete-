@@ -1,9 +1,9 @@
 Uses of Readme.md file
 It helps to give long description of the project.
-git is software installed local on system.
+git is software installed locally on system.
 github is web-based portal
 git version 2.31.1.windows.1
-git update (to update current version of git on local system)
+git update/git update-git-for-windows (to update current version of git on local system)
 Before pushing your code some other admin who is working on that pushed the code so your push gets rejected it shows there are updates and it doesn't allows us so we need to git pull before pushing
 Diff b/w pull and clone=git pull is used to get updates complete repo is brought by git clone but pull brings the changes like adding files or changes made to files etc..
 Best practise first use git pull before pushing
@@ -18,6 +18,7 @@ git status = The git status command displays the state of the working directory 
 All uncommited files are visible in all branches & after commit they belong to branch where we have commited.
 git cherry-Pick is used to picking single commit from one branch to others.
 after cherrypick source commit still available after cherry-pick
+IQ: In a branch there are total 5 commits I need to pick third commit to my default branch does it is possible. Ans: yes possible we need to give git cherry-pick <commit id of third commit>
 When there are updates in both branches, merging of that both branches will open vi editor gets pop-up.We have a merge commit in git log.
 When there are updates in same file in different branches, merging of that both branches will open vi editor as a merge conflict.
 How do you handle the merge conflicts? ans: need to fix the conflicts and then commit the result.
