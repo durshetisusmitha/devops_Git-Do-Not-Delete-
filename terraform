@@ -33,4 +33,4 @@ If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 A network security group (NSG) in Azure is the way to activate a rule or access control list (ACL), which will allow or deny network traffic to your virtual machine instances in a virtual network. NSGs can be associated with subnets or individual virtual machine instances within that subnet.
-
+In the simplest terms of computers and technology, the definition of configuration pertains to the arrangement of the hardware and software of IT system. Management of the components, settings and more ensures all IT systems can function smoothly and gives you greater control over the devices on your network.

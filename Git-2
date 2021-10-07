@@ -23,6 +23,7 @@ to push non main branch we need to create or compare and pull request then appro
 create pull request when we want to merge our code to main repo after creating invite collaborator aprrover should approve it.
 Fetch only brings the content but it does not merge.
 The git fetch command downloads commits, files, and refs from a remote repository into your local repo.
+fetch brings to local but doesn't apply
 You can use git fetch to see if there are any updates to the remote branch without necessary merging them with your local branch.
 git pull = fetch + merge
 rebase is equal to merge but Firstly Rebase takes destination commits later it gives its own commits.
