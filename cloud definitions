@@ -10,3 +10,5 @@ DIFFERENCE BETWEEN AZURE DEVOPS SERVER AND AZURE DEVOPS SERVICES
 The cloud offering, Azure DevOps Services, provides a scalable, reliable, and globally available hosted service. It's backed by a 99.9% SLA, monitored by our 24/7 operations team, and available in local data centers around the world.
 
 The on-premises offering, Azure DevOps Server, is built on a SQL Server back end. Customers usually choose the on-premises version when they need their data to stay within their network. Or, when they want access to SQL Server reporting services that integrate with Azure DevOps Server data and tools.
+DIFFERENCE BETWEEN AVAILABILITY SETS AND AVALAIBILTY ZONES
+However, there is a distinct difference. While availability sets are used to protect applications from hardware failures within an Azure data center, availability zones, protect applications from complete Azure data center failures. An availability zone is a unique physical location that exists within an Azure region.
