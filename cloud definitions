@@ -1,6 +1,7 @@
 A virtual machine (VM) is a virtual environment that works like a computer within a computer.
-In Internet networking, a private network is a computer network that uses a private address space of IP addresses. IN azure we call it network interface.
+private ip address--In Internet networking, a private network is a computer network that uses a private address space of IP addresses. IN azure we call it network interface.
 A network interface card (NIC) is a hardware component, typically a circuit board or chip, which is installed on a computer so it can connect to a network. 
 A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol.
 Virtual networking enables communication between multiple computers, virtual machines (VMs), virtual servers, or other devices across different office and data center locations.
 A subnet, or subnetwork, is a segmented piece of a larger network. More specifically, subnets are a logical partition of an IP network into multiple, smaller network segments. ... Each computer, or host, on the internet has at least one IP address as a unique identifier.
+A public IP address is an IP address that can be accessed directly over the internet 
