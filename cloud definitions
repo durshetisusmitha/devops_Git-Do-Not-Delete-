@@ -6,3 +6,7 @@ Inbound firewall rules define the traffic allowed to the server on which ports a
 Virtual networking enables communication between multiple computers, virtual machines (VMs), virtual servers, or other devices across different office and data center locations.
 A subnet, or subnetwork, is a segmented piece of a larger network. More specifically, subnets are a logical partition of an IP network into multiple, smaller network segments. ... Each computer, or host, on the internet has at least one IP address as a unique identifier.
 A public IP address is an IP address that can be accessed directly over the internet 
+DIFFERENCE BETWEEN AZURE DEVOPS SERVER AND AZURE DEVOPS SERVICES
+The cloud offering, Azure DevOps Services, provides a scalable, reliable, and globally available hosted service. It's backed by a 99.9% SLA, monitored by our 24/7 operations team, and available in local data centers around the world.
+
+The on-premises offering, Azure DevOps Server, is built on a SQL Server back end. Customers usually choose the on-premises version when they need their data to stay within their network. Or, when they want access to SQL Server reporting services that integrate with Azure DevOps Server data and tools.
